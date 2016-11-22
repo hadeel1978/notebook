@@ -42,6 +42,7 @@ defmodule Notebook.Mixfile do
      {:ex_machina, "~> 1.0"},
      {:excoveralls, "~> 0.5.7", only: :test},
      {:wallaby, "~> 0.14.0", only: :test},
+     {:phoenix_slime, "~> 0.8.0"},
      {:cowboy, "~> 1.0"}]
   end
 
