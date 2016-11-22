@@ -11,6 +11,7 @@ defmodule Notebook.Mixfile do
      start_permanent: Mix.env == :prod,
      aliases: aliases(),
      test_coverage: [tool: ExCoveralls],
+     preferred_cli_env: ["coveralls": :test, "coveralls.travis": :test],
      deps: deps()]
   end
 
